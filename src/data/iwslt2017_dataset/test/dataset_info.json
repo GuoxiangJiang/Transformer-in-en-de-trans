@@ -1,0 +1,53 @@
+{
+  "builder_name": "iwslt2017",
+  "citation": "@inproceedings{cettolo-etal-2017-overview,\n    title = \"Overview of the {IWSLT} 2017 Evaluation Campaign\",\n    author = {Cettolo, Mauro  and\n      Federico, Marcello  and\n      Bentivogli, Luisa  and\n      Niehues, Jan  and\n      St{\\\"u}ker, Sebastian  and\n      Sudoh, Katsuhito  and\n      Yoshino, Koichiro  and\n      Federmann, Christian},\n    booktitle = \"Proceedings of the 14th International Conference on Spoken Language Translation\",\n    month = dec # \" 14-15\",\n    year = \"2017\",\n    address = \"Tokyo, Japan\",\n    publisher = \"International Workshop on Spoken Language Translation\",\n    url = \"https://aclanthology.org/2017.iwslt-1.1\",\n    pages = \"2--14\",\n}\n",
+  "config_name": "iwslt2017-en-de",
+  "dataset_name": "iwslt2017",
+  "dataset_size": 44427829,
+  "description": "The IWSLT 2017 Multilingual Task addresses text translation, including zero-shot translation, with a single MT system across all directions including English, German, Dutch, Italian and Romanian. As unofficial task, conventional bilingual text translation is offered between English and Arabic, French, Japanese, Chinese, German and Korean.\n",
+  "download_checksums": {
+    "https://huggingface.co/datasets/iwslt2017/resolve/main/data/2017-01-trnted/texts/en/de/en-de.zip": {
+      "num_bytes": 16758334,
+      "checksum": null
+    }
+  },
+  "download_size": 16758334,
+  "features": {
+    "translation": {
+      "languages": [
+        "en",
+        "de"
+      ],
+      "_type": "Translation"
+    }
+  },
+  "homepage": "https://sites.google.com/site/iwsltevaluation2017/TED-tasks",
+  "license": "",
+  "size_in_bytes": 61186163,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 42608380,
+      "num_examples": 206112,
+      "dataset_name": "iwslt2017"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1608474,
+      "num_examples": 8079,
+      "dataset_name": "iwslt2017"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 210975,
+      "num_examples": 888,
+      "dataset_name": "iwslt2017"
+    }
+  },
+  "version": {
+    "version_str": "1.0.0",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

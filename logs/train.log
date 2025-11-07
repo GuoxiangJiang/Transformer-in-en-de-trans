@@ -1,0 +1,3 @@
+nohup: ignoring input
+/home/jianggx/anaconda3/envs/proto-clip/lib/python3.9/site-packages/transformers/models/marian/tokenization_marian.py:175: UserWarning: Recommended: pip install sacremoses.
+  warnings.warn("Recommended: pip install sacremoses.")

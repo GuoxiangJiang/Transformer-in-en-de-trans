@@ -1,0 +1,13 @@
+torch>=2.0.0
+datasets>=2.14.0
+transformers>=4.30.0
+tokenizers>=0.13.0
+tqdm>=4.65.0
+numpy>=1.24.0
+tensorboard>=2.13.0
+
+# 评估指标
+sacrebleu>=2.3.0
+rouge>=1.0.1
+nltk>=3.8.0
+
