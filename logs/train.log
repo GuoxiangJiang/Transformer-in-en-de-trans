@@ -1,3 +1,177 @@
 nohup: ignoring input
 /home/jianggx/anaconda3/envs/proto-clip/lib/python3.9/site-packages/transformers/models/marian/tokenization_marian.py:175: UserWarning: Recommended: pip install sacremoses.
   warnings.warn("Recommended: pip install sacremoses.")
+加载数据集和分词器...
+创建模型 (vocab_size=58101, device=cuda:4)...
+开始训练...
+Epoch 1/100 - Train Loss: 4.0520, Val Loss: 3.2508
+  保存最佳模型 (val_loss=3.2508)
+Epoch 2/100 - Train Loss: 3.1246, Val Loss: 2.8442
+  保存最佳模型 (val_loss=2.8442)
+Epoch 3/100 - Train Loss: 2.7992, Val Loss: 2.5953
+  保存最佳模型 (val_loss=2.5953)
+Epoch 4/100 - Train Loss: 2.5803, Val Loss: 2.3968
+  保存最佳模型 (val_loss=2.3968)
+Epoch 5/100 - Train Loss: 2.4140, Val Loss: 2.2508
+  保存最佳模型 (val_loss=2.2508)
+Epoch 6/100 - Train Loss: 2.2840, Val Loss: 2.1420
+  保存最佳模型 (val_loss=2.1420)
+Epoch 7/100 - Train Loss: 2.1788, Val Loss: 2.0571
+  保存最佳模型 (val_loss=2.0571)
+Epoch 8/100 - Train Loss: 2.0918, Val Loss: 1.9783
+  保存最佳模型 (val_loss=1.9783)
+Epoch 9/100 - Train Loss: 2.0191, Val Loss: 1.9159
+  保存最佳模型 (val_loss=1.9159)
+Epoch 10/100 - Train Loss: 1.9558, Val Loss: 1.8731
+  保存最佳模型 (val_loss=1.8731)
+Epoch 11/100 - Train Loss: 1.9018, Val Loss: 1.8229
+  保存最佳模型 (val_loss=1.8229)
+Epoch 12/100 - Train Loss: 1.8542, Val Loss: 1.7858
+  保存最佳模型 (val_loss=1.7858)
+Epoch 13/100 - Train Loss: 1.8122, Val Loss: 1.7509
+  保存最佳模型 (val_loss=1.7509)
+Epoch 14/100 - Train Loss: 1.7740, Val Loss: 1.7262
+  保存最佳模型 (val_loss=1.7262)
+Epoch 15/100 - Train Loss: 1.7401, Val Loss: 1.7015
+  保存最佳模型 (val_loss=1.7015)
+Epoch 16/100 - Train Loss: 1.7090, Val Loss: 1.6746
+  保存最佳模型 (val_loss=1.6746)
+Epoch 17/100 - Train Loss: 1.6804, Val Loss: 1.6547
+  保存最佳模型 (val_loss=1.6547)
+Epoch 18/100 - Train Loss: 1.6552, Val Loss: 1.6357
+  保存最佳模型 (val_loss=1.6357)
+Epoch 19/100 - Train Loss: 1.6314, Val Loss: 1.6141
+  保存最佳模型 (val_loss=1.6141)
+Epoch 20/100 - Train Loss: 1.6092, Val Loss: 1.6001
+  保存最佳模型 (val_loss=1.6001)
+Epoch 21/100 - Train Loss: 1.5888, Val Loss: 1.5824
+  保存最佳模型 (val_loss=1.5824)
+Epoch 22/100 - Train Loss: 1.5697, Val Loss: 1.5778
+  保存最佳模型 (val_loss=1.5778)
+Epoch 23/100 - Train Loss: 1.5523, Val Loss: 1.5616
+  保存最佳模型 (val_loss=1.5616)
+Epoch 24/100 - Train Loss: 1.5355, Val Loss: 1.5503
+  保存最佳模型 (val_loss=1.5503)
+Epoch 25/100 - Train Loss: 1.5199, Val Loss: 1.5441
+  保存最佳模型 (val_loss=1.5441)
+Epoch 26/100 - Train Loss: 1.5049, Val Loss: 1.5338
+  保存最佳模型 (val_loss=1.5338)
+Epoch 27/100 - Train Loss: 1.4912, Val Loss: 1.5213
+  保存最佳模型 (val_loss=1.5213)
+Epoch 28/100 - Train Loss: 1.4778, Val Loss: 1.5170
+  保存最佳模型 (val_loss=1.5170)
+Epoch 29/100 - Train Loss: 1.4654, Val Loss: 1.5109
+  保存最佳模型 (val_loss=1.5109)
+Epoch 30/100 - Train Loss: 1.4544, Val Loss: 1.4967
+  保存最佳模型 (val_loss=1.4967)
+Epoch 31/100 - Train Loss: 1.4429, Val Loss: 1.4948
+  保存最佳模型 (val_loss=1.4948)
+Epoch 32/100 - Train Loss: 1.4321, Val Loss: 1.4860
+  保存最佳模型 (val_loss=1.4860)
+Epoch 33/100 - Train Loss: 1.4221, Val Loss: 1.4799
+  保存最佳模型 (val_loss=1.4799)
+Epoch 34/100 - Train Loss: 1.4117, Val Loss: 1.4796
+  保存最佳模型 (val_loss=1.4796)
+Epoch 35/100 - Train Loss: 1.4026, Val Loss: 1.4716
+  保存最佳模型 (val_loss=1.4716)
+Epoch 36/100 - Train Loss: 1.3935, Val Loss: 1.4627
+  保存最佳模型 (val_loss=1.4627)
+Epoch 37/100 - Train Loss: 1.3843, Val Loss: 1.4623
+  保存最佳模型 (val_loss=1.4623)
+Epoch 38/100 - Train Loss: 1.3770, Val Loss: 1.4579
+  保存最佳模型 (val_loss=1.4579)
+Epoch 39/100 - Train Loss: 1.3687, Val Loss: 1.4556
+  保存最佳模型 (val_loss=1.4556)
+Epoch 40/100 - Train Loss: 1.3608, Val Loss: 1.4509
+  保存最佳模型 (val_loss=1.4509)
+Epoch 41/100 - Train Loss: 1.3531, Val Loss: 1.4474
+  保存最佳模型 (val_loss=1.4474)
+Epoch 42/100 - Train Loss: 1.3464, Val Loss: 1.4435
+  保存最佳模型 (val_loss=1.4435)
+Epoch 43/100 - Train Loss: 1.3383, Val Loss: 1.4431
+  保存最佳模型 (val_loss=1.4431)
+Epoch 44/100 - Train Loss: 1.3323, Val Loss: 1.4336
+  保存最佳模型 (val_loss=1.4336)
+Epoch 45/100 - Train Loss: 1.3255, Val Loss: 1.4323
+  保存最佳模型 (val_loss=1.4323)
+Epoch 46/100 - Train Loss: 1.3191, Val Loss: 1.4334
+Epoch 47/100 - Train Loss: 1.3126, Val Loss: 1.4301
+  保存最佳模型 (val_loss=1.4301)
+Epoch 48/100 - Train Loss: 1.3070, Val Loss: 1.4264
+  保存最佳模型 (val_loss=1.4264)
+Epoch 49/100 - Train Loss: 1.3012, Val Loss: 1.4253
+  保存最佳模型 (val_loss=1.4253)
+Epoch 50/100 - Train Loss: 1.2961, Val Loss: 1.4169
+  保存最佳模型 (val_loss=1.4169)
+Epoch 51/100 - Train Loss: 1.2906, Val Loss: 1.4216
+Epoch 52/100 - Train Loss: 1.2850, Val Loss: 1.4130
+  保存最佳模型 (val_loss=1.4130)
+Epoch 53/100 - Train Loss: 1.2792, Val Loss: 1.4118
+  保存最佳模型 (val_loss=1.4118)
+Epoch 54/100 - Train Loss: 1.2746, Val Loss: 1.4141
+Epoch 55/100 - Train Loss: 1.2698, Val Loss: 1.4080
+  保存最佳模型 (val_loss=1.4080)
+Epoch 56/100 - Train Loss: 1.2642, Val Loss: 1.4111
+Epoch 57/100 - Train Loss: 1.2602, Val Loss: 1.4017
+  保存最佳模型 (val_loss=1.4017)
+Epoch 58/100 - Train Loss: 1.2561, Val Loss: 1.4030
+Epoch 59/100 - Train Loss: 1.2510, Val Loss: 1.4065
+Epoch 60/100 - Train Loss: 1.2462, Val Loss: 1.4020
+Epoch 61/100 - Train Loss: 1.2423, Val Loss: 1.3945
+  保存最佳模型 (val_loss=1.3945)
+Epoch 62/100 - Train Loss: 1.2374, Val Loss: 1.3999
+Epoch 63/100 - Train Loss: 1.2343, Val Loss: 1.3924
+  保存最佳模型 (val_loss=1.3924)
+Epoch 64/100 - Train Loss: 1.2295, Val Loss: 1.3901
+  保存最佳模型 (val_loss=1.3901)
+Epoch 65/100 - Train Loss: 1.2255, Val Loss: 1.3965
+Epoch 66/100 - Train Loss: 1.2217, Val Loss: 1.3952
+Epoch 67/100 - Train Loss: 1.2184, Val Loss: 1.3911
+Epoch 68/100 - Train Loss: 1.2142, Val Loss: 1.3869
+  保存最佳模型 (val_loss=1.3869)
+Epoch 69/100 - Train Loss: 1.2104, Val Loss: 1.3928
+Epoch 70/100 - Train Loss: 1.2071, Val Loss: 1.3871
+Epoch 71/100 - Train Loss: 1.2033, Val Loss: 1.3864
+  保存最佳模型 (val_loss=1.3864)
+Epoch 72/100 - Train Loss: 1.2004, Val Loss: 1.3862
+  保存最佳模型 (val_loss=1.3862)
+Epoch 73/100 - Train Loss: 1.1973, Val Loss: 1.3844
+  保存最佳模型 (val_loss=1.3844)
+Epoch 74/100 - Train Loss: 1.1932, Val Loss: 1.3874
+Epoch 75/100 - Train Loss: 1.1904, Val Loss: 1.3839
+  保存最佳模型 (val_loss=1.3839)
+Epoch 76/100 - Train Loss: 1.1867, Val Loss: 1.3785
+  保存最佳模型 (val_loss=1.3785)
+Epoch 77/100 - Train Loss: 1.1834, Val Loss: 1.3780
+  保存最佳模型 (val_loss=1.3780)
+Epoch 78/100 - Train Loss: 1.1803, Val Loss: 1.3830
+Epoch 79/100 - Train Loss: 1.1772, Val Loss: 1.3799
+Epoch 80/100 - Train Loss: 1.1744, Val Loss: 1.3787
+Epoch 81/100 - Train Loss: 1.1715, Val Loss: 1.3781
+Epoch 82/100 - Train Loss: 1.1686, Val Loss: 1.3732
+  保存最佳模型 (val_loss=1.3732)
+Epoch 83/100 - Train Loss: 1.1659, Val Loss: 1.3778
+Epoch 84/100 - Train Loss: 1.1626, Val Loss: 1.3719
+  保存最佳模型 (val_loss=1.3719)
+Epoch 85/100 - Train Loss: 1.1601, Val Loss: 1.3769
+Epoch 86/100 - Train Loss: 1.1569, Val Loss: 1.3765
+Epoch 87/100 - Train Loss: 1.1546, Val Loss: 1.3746
+Epoch 88/100 - Train Loss: 1.1517, Val Loss: 1.3742
+Epoch 89/100 - Train Loss: 1.1494, Val Loss: 1.3694
+  保存最佳模型 (val_loss=1.3694)
+Epoch 90/100 - Train Loss: 1.1460, Val Loss: 1.3668
+  保存最佳模型 (val_loss=1.3668)
+Epoch 91/100 - Train Loss: 1.1437, Val Loss: 1.3688
+Epoch 92/100 - Train Loss: 1.1409, Val Loss: 1.3686
+Epoch 93/100 - Train Loss: 1.1385, Val Loss: 1.3619
+  保存最佳模型 (val_loss=1.3619)
+Epoch 94/100 - Train Loss: 1.1362, Val Loss: 1.3691
+Epoch 95/100 - Train Loss: 1.1336, Val Loss: 1.3610
+  保存最佳模型 (val_loss=1.3610)
+Epoch 96/100 - Train Loss: 1.1309, Val Loss: 1.3668
+Epoch 97/100 - Train Loss: 1.1288, Val Loss: 1.3599
+  保存最佳模型 (val_loss=1.3599)
+Epoch 98/100 - Train Loss: 1.1264, Val Loss: 1.3565
+  保存最佳模型 (val_loss=1.3565)
+Epoch 99/100 - Train Loss: 1.1243, Val Loss: 1.3627
+Epoch 100/100 - Train Loss: 1.1222, Val Loss: 1.3594

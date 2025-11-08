@@ -36,8 +36,8 @@ def translate(model, tokenizer, text, device, max_len=128):
 def compute_metrics(predictions, references):
     """计算 BLEU 和 ROUGE"""
     # 过滤空翻译（用占位符替换）
-    clean_preds = [p if p.strip() else "." for p in predictions]
-    clean_refs = [r if r.strip() else "." for r in references]
+    clean_preds = [p if p.strip(".") else "900" for p in predictions]
+    clean_refs = [r if r.strip(".") else "900" for r in references]
     
     # BLEU
     bleu = BLEU()
@@ -64,7 +64,7 @@ def main():
     
     # 加载数据和模型
     dataset = load_from_disk('./data/iwslt2017_dataset')
-    test_data = dataset['test'] if 'test' in dataset else dataset['validation']
+    test_data = dataset['test']
     
     tokenizer = get_tokenizer()
     model = Transformer(
@@ -83,8 +83,12 @@ def main():
     
     # 翻译
     predictions, references = [], []
+    num = 0
     for item in tqdm(test_data):
         pred = translate(model, tokenizer, item['translation']['en'], device, max_len)
+        num = num+1
+        # if num>=1000:
+        #     break
         predictions.append(pred)
         references.append(item['translation']['de'])
     
