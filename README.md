@@ -45,8 +45,7 @@ python download.py
 ### 3. 训练模型
 
 ```bash
-cd src
-python train.py
+source scripts/train.sh
 ```
 
 
@@ -54,7 +53,7 @@ python train.py
 
 
 ```bash
-bash scripts/test.sh
+source scripts/test.sh
 ```
 
 ### 5. 查看训练过程（TensorBoard）
@@ -63,7 +62,6 @@ bash scripts/test.sh
 tensorboard --logdir=./runs --port=6006
 ```
 
-然后在浏览器访问：http://localhost:6006
 
 
 
